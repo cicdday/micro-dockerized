@@ -25,7 +25,7 @@ app-read-person:
 	curl -X GET -H 'Content-Type: application/json' -i http://$(APPLICATION_HOST):$(APPLICATION_PORT)/addressbook/api/contacts/1
 
 app-run-st:
-	mvn failsafe:integration-test -f application/addressbook/
+	mvn failsafe:integration-test -f application/addressbook/ failsafe:verify
 
 #################################################
 # DOCKER
