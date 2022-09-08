@@ -12,7 +12,7 @@
     <failOnMissingWebXml>false</failOnMissingWebXml>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <postgresql.version>42.2.8</postgresql.version>
+    <postgresql.version>42.4.1</postgresql.version>
     <microprofile.version>2.2</microprofile.version>
     <vertx-auth-jwt.version>3.8.1</vertx-auth-jwt.version>
     <payara-micro-maven-plugin.version>1.0.1</payara-micro-maven-plugin.version>
